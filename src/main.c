@@ -262,7 +262,8 @@ int main(void)
   // Adafruit Factory reset
   if ( !button_pressed(BUTTON_DFU) && button_pressed(BUTTON_FRESET) )
   {
-    adafruit_factory_reset();
+    //disable factory reset.
+    //adafruit_factory_reset();
   }
 
   // Reset Board
